@@ -1,13 +1,13 @@
 *{
     margin: 0%;
     padding: 0%;
-    background-color: #EEFFFF;
-    font-family: "Product Sans";
     box-sizing: border-box;
 }
 html,body{
     width: 100%;
     height: 100%;
+    background-color: #EEFFFF;
+    font-family: "Product Sans";
 }
 #background{
     overflow: hidden;
@@ -152,17 +152,16 @@ html,body{
     width: 80px;
 }
 #background3{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+    position: relative;
     width: 100%;
+    height: 50%;
     padding: 30px 70px;
 }
 #border{
     position: absolute;
     left: 0;
     width: 100%;
-    height: 50%;
+    height: 100%;
     background: linear-gradient(to right, #3A8D92, #88e4e9 );
 }
 #border #content3{
@@ -173,15 +172,10 @@ html,body{
     text-align: center;
     width: 30%;
     height: 70%;
-    background-color: rgba(238, 130, 238, 0.027);
-}
-#border #content3 h1{
-    background-color: rgba(238, 130, 238, 0);
 }
 #border #content3 p{
     margin-top: 20px;
     margin-bottom: 20px;
-    background-color: rgba(238, 130, 238, 0);
 }
 #content3 button{
     padding: 8px 22px;
@@ -197,5 +191,99 @@ html,body{
     position: absolute;
     right: 0;
     width: 315px;
-    background-color: rgba(238, 130, 238, 0);
+}
+#footer{
+    width: 100%;
+    padding: 50px 70px;
+    
+}
+#content4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#footer #content4 #Logo{
+     width: 35px;
+}
+#content4 #left{
+    width: 20%;
+}
+#content4 #left h6{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-weight: 800;
+    margin-bottom: 20px;
+}
+#content4 #left a{
+    text-decoration: none;
+    color: black;
+    font-weight: 800;
+    font-size: 12px;
+    margin-left: 10px;
+}
+#content4 #left h5{
+    display: flex;
+    align-items: center;
+    color: #3A8D92;
+    margin-top: 25px;
+    margin-left: 10px;
+}
+#content4 #left h5 #C{
+    width: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 3px;
+}
+#content4 #middle{
+    width: 20%;
+}
+#content4 #middle h4{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+}
+#content4 #middle #Map{
+    color: #3A8D92;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#content4 #middle h3{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+}
+#content4 #middle #Phone{
+    color: #3A8D92;
+    font-size: 18px;
+    margin-top: 17px;
+    margin-bottom: 17px;
+    margin-right: 10px;
+}
+#content4 #middle h2{
+    display: flex;
+    align-items: center;
+    font-size:12px;
+}
+#content4 #middle #Email{
+    color: #3A8D92;
+    font-size: 18px;
+    margin-right: 10px;
+}
+#content4 #right{
+    width: 20%;
+}
+#content4 #right h2{
+    font-size: 15px;
+}
+#content4 #right p{
+   opacity: .4;
+   width: 80%;
+   line-height: 17px;
+   margin-top: 6px;
+   margin-bottom: 6px;
+}
+#content4 #right i{
+    font-size: 20px;
 }
