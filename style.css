@@ -273,12 +273,16 @@ html,body{
 }
 #content4 #right{
     width: 20%;
+    height: 50%;
+    margin-top: 30px;
+    margin-bottom: 10px;
 }
 #content4 #right h2{
     font-size: 15px;
 }
 #content4 #right p{
    opacity: .4;
+   font-size: 12px;
    width: 80%;
    line-height: 17px;
    margin-top: 6px;
